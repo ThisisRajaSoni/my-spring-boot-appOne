@@ -7,8 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CrudController {
 	
-
-	@GetMapping("/hello")
+    @GetMapping("/hello")
     @ResponseBody
     public String summarize() {
         return "Hi Welcome to Custom.... War";
