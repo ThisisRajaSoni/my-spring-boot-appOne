@@ -11,7 +11,7 @@ public class CrudController {
 	@GetMapping("/hello")
     @ResponseBody
     public String summarize() {
-        return "Hi Welcome to Custom War";
+        return "Hi Welcome to Custom.... War";
     }
 	
 }
